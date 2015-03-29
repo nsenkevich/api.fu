@@ -1,0 +1,12 @@
+FU\Domain\Product\Product:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            inline: true
+        name:
+            expose: true
+            serialized_name: name
+        description:
+            expose: true
+            serialized_name: description

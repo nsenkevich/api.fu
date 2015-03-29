@@ -1,0 +1,6 @@
+FU\Domain\Product\ProductId:
+    exclusion_policy: ALL
+    properties:
+        value:
+            expose: true
+            serialized_name: id

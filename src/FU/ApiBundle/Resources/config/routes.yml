@@ -1,0 +1,5 @@
+all:
+    pattern:  /products
+    defaults: { _controller: FUApiBundle:Products:all, _format: ~ }
+    requirements:
+        _method: GET
